@@ -3,5 +3,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    # path('helloWorld', views.helloWorld, name='helloWorld'),
+    path('compute-by-mlp', views.computeByMLP, name='computeByMLP'),
 ]
